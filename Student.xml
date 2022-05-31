@@ -1,0 +1,13 @@
+<students>
+<student>
+<name> Sayma </name>
+<id> 1 </id>
+<email> sayma@gamil.com</email>
+</student>
+
+<student>
+<name> Samun </name>
+<id> 2 </id>
+<email> samun@gamil.com</email>
+</student>
+</students>
