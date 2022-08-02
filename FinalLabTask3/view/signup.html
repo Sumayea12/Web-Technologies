@@ -1,0 +1,69 @@
+
+<html>
+<head>
+	<title>registration Form Submission</title>
+		<script src="../asset/reg.js"></script>
+</head>
+<body style="background-color:skyBlue;">
+		<form action="../controller/regCheck.php" method="post" onsubmit="return regValidate();" enctype="">
+			<fieldset>
+				<legend><h1>Registration</h1></legend>
+				<table>
+					<tr>
+
+						<td>Name</td></tr>
+						<tr>
+						<td><input type="text" name="username" id="username" value=""></td>
+					</tr>
+					<tr>
+						<td>ID</td>
+						</tr>
+						<tr>
+						<td><input type="Number" name="id" id="id" value=""></td>
+					</tr>
+					
+					<tr>
+						<td>password</td></tr>
+						<tr>
+						<td><input type="password" name="password" id="password" value=""></td>
+					</tr>
+					<tr>
+						<td>confirm_password</td></tr>
+						<tr>
+						<td><input type="password" name="confirm" id="confirm" value=""></td>
+					</tr>
+					<tr>
+						<td>Phone_Number</td></tr>
+						<tr>
+						<td><input type="text" name="Pnumber" id="Pnumber" value=""></td>
+					</tr>
+					<tr>
+						<td>Email</td></tr>
+						<tr>
+						<td><input type="email" name="email" id="email" value=""></td>
+					</tr>
+										<tr>
+						<td>DOB</td></tr>
+						<tr>
+						<td><input type="date" name="dob" id="DOB" value=""></td>
+					</tr>
+					<tr>
+						<td>Address</td></tr>
+						<tr>
+						<td >
+							<textarea style="height: 70px;width: 180px;"></textarea>
+						</td>
+					</tr>
+					<td><br></td>
+					
+					<tr>
+						<td>
+							<input type="submit" name="" value="SignUp">
+							<a href="signup.html"> Signin </a>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+</body>
+</html>
